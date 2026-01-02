@@ -148,7 +148,8 @@ kubectl get svc -n kube-system
 2.  **ExternalDNS 도메인 필터 (`external-dns.values.yaml`)**
     *   파일: `../kyeol-platform-gitops/clusters/dev/values/external-dns.values.yaml` (⚠️ 주의: platform 폴더입니다)
     *   `domainFilters`: `yesol.shop` (본인 도메인)으로 수정
-    *   수정 후 적용: `kubectl kustomize clusters/dev/addons/external-dns/ --enable-helm --load-restrictor LoadRestrictionsNone | kubectl apply -f -`
+    *   **중요**: 수정 후 반드시 변경사항을 클러스터에 적용해야 합니다.
+    *   `kubectl kustomize ../kyeol-platform-gitops/clusters/dev/addons/external-dns/ --enable-helm --load-restrictor LoadRestrictionsNone | kubectl apply -f -`
 
 3.  **이미지 레지스트리 설정 (`kustomization.yaml`)**
     *   파일: `../kyeol-app-gitops/apps/saleor/overlays/dev/kustomization.yaml`
