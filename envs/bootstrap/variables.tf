@@ -1,10 +1,10 @@
 # Bootstrap: 변수 정의
-# min-kyeol-bootstrap
+# sol-kyeol-bootstrap
 
 variable "aws_region" {
   description = "AWS 리전"
   type        = string
-  default     = "ap-southeast-2"
+  default     = "ap-northeast-3"
 }
 
 variable "aws_account_id" {
@@ -21,7 +21,7 @@ variable "project_name" {
 variable "owner_prefix" {
   description = "소유자 프리픽스 (min-)"
   type        = string
-  default     = "min"
+  default     = "sol"
 }
 
 variable "enable_kms_encryption" {

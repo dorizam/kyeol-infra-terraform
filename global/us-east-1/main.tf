@@ -12,7 +12,7 @@ resource "aws_acm_certificate" "cloudfront" {
   }
 
   tags = {
-    Name    = "min-kyeol-cloudfront-cert"
+    Name    = "sol-kyeol-cloudfront-cert"
     Purpose = "cloudfront"
   }
 }

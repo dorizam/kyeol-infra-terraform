@@ -17,4 +17,4 @@
 
 # RDS: Multi-AZ 활성화, db.t3.medium
 # Cache: Valkey 사용
-# EKS: desired 3, min 2, max 5
+# EKS: desired 3, sol 2, max 5

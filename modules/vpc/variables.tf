@@ -1,7 +1,7 @@
 # VPC Module: 변수 정의
 
 variable "name_prefix" {
-  description = "리소스 이름 프리픽스 (예: min-kyeol-dev)"
+  description = "리소스 이름 프리픽스 (예: sol-kyeol-dev)"
   type        = string
 }
 

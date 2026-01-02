@@ -3,7 +3,7 @@
 variable "aws_region" {
   description = "AWS 리전"
   type        = string
-  default     = "ap-southeast-2"
+  default     = "ap-northeast-3"
 }
 
 variable "aws_account_id" {
@@ -20,7 +20,7 @@ variable "project_name" {
 variable "owner_prefix" {
   description = "소유자 프리픽스"
   type        = string
-  default     = "min"
+  default     = "sol"
 }
 
 variable "environment" {
@@ -39,7 +39,7 @@ variable "vpc_cidr" {
 variable "azs" {
   description = "가용영역 목록"
   type        = list(string)
-  default     = ["ap-southeast-2a", "ap-southeast-2c"]
+  default     = ["ap-northeast-3a", "ap-northeast-3c"]
 }
 
 # EKS 설정
@@ -88,7 +88,7 @@ variable "rds_multi_az" {
 
 # Route53
 variable "hosted_zone_id" {
-  description = "Route53 Hosted Zone ID (msp-g1.click)"
+  description = "Route53 Hosted Zone ID (yesol.shop)"
   type        = string
   default     = ""
 }

@@ -8,7 +8,7 @@ provider "aws" {
       Project     = "kyeol"
       Environment = "dev"
       ManagedBy   = "terraform"
-      Owner       = "min"
+      Owner       = "sol"
     }
   }
 }

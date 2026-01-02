@@ -32,9 +32,9 @@ kyeol-infra-terraform/
 
 ## 네이밍 규칙
 
-모든 리소스: `min-kyeol-[env]-[resource]-[detail]`
+모든 리소스: `sol-kyeol-[env]-[resource]-[detail]`
 
 예시:
-- VPC: `min-kyeol-dev-vpc`
-- EKS: `min-kyeol-dev-eks`
-- RDS: `min-kyeol-dev-rds`
+- VPC: `sol-kyeol-dev-vpc`
+- EKS: `sol-kyeol-dev-eks`
+- RDS: `sol-kyeol-dev-rds`

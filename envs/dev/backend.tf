@@ -3,10 +3,10 @@
 
 terraform {
   backend "s3" {
-    bucket         = "min-kyeol-tfstate-827913617839-ap-southeast-2"  # TODO: 실제 값으로 교체
+    bucket         = "sol-kyeol-tfstate-827913617839-ap-northeast-3"
     key            = "dev/terraform.tfstate"
-    region         = "ap-southeast-2"
-    dynamodb_table = "min-kyeol-tfstate-lock"
+    region         = "ap-northeast-3"
+    dynamodb_table = "sol-kyeol-tfstate-lock"
     encrypt        = true
   }
 }

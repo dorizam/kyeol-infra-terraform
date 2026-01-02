@@ -1,0 +1,15 @@
+# Bootstrap Environment: 예시 변수 파일
+# 이 파일을 terraform.tfvars로 복사하고 실제 값을 입력하세요.
+
+# AWS 리전 (오사카)
+aws_region = "ap-northeast-3"
+
+# AWS 계정 ID (필수)
+aws_account_id = "827913617839"
+
+# 프로젝트 설정
+owner_prefix = "sol"
+project_name = "kyeol"
+
+# KMS 암호화 활성화
+enable_kms_encryption = true
